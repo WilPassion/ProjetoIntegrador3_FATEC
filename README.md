@@ -6,10 +6,12 @@ Projeto Integrador III - Curso Big Data Para Negócios / FATEC Ipiranga
 * Proposta pedagógica: Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recursos de Inteligência Artificial e Estatística para gerar informações em níveis estratégicos.
 
 * Etapas: 
- <img align="center" src="https://drive.google.com/uc?=1y5Q83AC9JYBbxbemUkSSo8AFlSDauRdQ" alt="etapas-projeto"> 
+ <img align="center" src="https://drive.google.com/uc?id=1y5Q83AC9JYBbxbemUkSSo8AFlSDauRdQ" alt="etapas-projeto"> 
+
 
 * Modelagem:
- <img align="center" src="https://drive.google.com/uc?=id1aAXFt6FaEfH0UVMzT-FNRH-vk9azVxRF" alt="modelagem-projeto"> 
+ <img align="center" src="https://drive.google.com/uc?id=1qak8kmfHbihNX59Cr8phkHh-rJmJRdXL" alt="modelagem-projeto"> 
+
 
 -----------------------------------------------------------------------
 
