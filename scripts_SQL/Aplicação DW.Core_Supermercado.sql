@@ -18,10 +18,11 @@ CREATE TABLE produtos(
 -- 1.2 Tabelas Pagamento, Caixa e afins
 
 CREATE TABLE forma_pagamento (
-    forma_pgmt_id INT PRIMARY KEY,
+    forma_pgmt_id SERIAL PRIMARY KEY,
     forma_pgmt_desc VARCHAR(35)
-
 )
+
+DROP TABLE forma_pagamento
 
 --1.3 Loja, Fornecedores e Estoque Regional
 CREATE TABLE loja (
@@ -31,7 +32,7 @@ CREATE TABLE loja (
     loja_nome VARCHAR(200) NOT NULL
 )
 
-
+INSERT INTO forma_pagamento VALUES ('Ewallet'), ('Cash'), ('Credit card')
 
 -- 1.4 Tabelas FATOS
 CREATE TABLE vendas (
