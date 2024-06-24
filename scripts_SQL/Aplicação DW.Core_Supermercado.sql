@@ -56,8 +56,8 @@ CREATE TABLE vendas (
     cliente_nome VARCHAR(50)
 );
 
-DROP TABLE vendas
 
+SELECT * FROM vendas_fato
 
 SELECT prod_id, loja_id, forma_pgmt_id, cliente_id, quantidade, imposto_5_percent, total,  data_venda, hora, cogs, renda_bruta, margem_bruta_percent
 INTO vendas_fato
@@ -66,8 +66,6 @@ INNER JOIN clientes B ON A.cliente_nome = B.cliente_nome
 INNER JOIN  loja C ON A.loja_filia = C.loja_filia
 INNER JOIN forma_pagamento D ON A.forma_pgmt_desc = D.forma_pgmt_desc
 INNER JOIN produtos E ON A.prod_linha = E.prod_linha AND A.prod_preco = E.prod_preco
-
-
 
 
 SELECT * FROM vendas_fato
