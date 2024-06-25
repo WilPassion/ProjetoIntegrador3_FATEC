@@ -1,38 +1,29 @@
 -- 1.0 Tabela Clientes 
-
 CREATE TABLE clientes (
     cliente_id INTEGER PRIMARY KEY,
 	cliente_tipo VARCHAR(255),
 	cliente_gen VARCHAR(15),
     cliente_nome VARCHAR(500)
 );
-
 -- 1.1 Tabela Pagamentos
-
 CREATE TABLE forma_pagamento (
     forma_pgmt_id INTEGER PRIMARY KEY,
     forma_pgmt_desc VARCHAR(35)
-);
-	
+);	
 --1.2 Tabela Lojas
-
 CREATE TABLE loja (
     loja_id INTEGER PRIMARY KEY,
 	loja_cidade VARCHAR(20),
 	loja_filial VARCHAR(15),
     loja_nome VARCHAR(200) NOT NULL
 );
-
 --1.3 Tabelas Produtos
-
 CREATE TABLE produtos(
     prod_id INTEGER PRIMARY KEY,
     prod_linha VARCHAR(200),
     prod_preco NUMERIC(20,2)
 );
-
 -- 1.4 Tabela Fato
-
 CREATE TABLE vendas_fato(
     prod_id INTEGER,
 	loja_id INTEGER,

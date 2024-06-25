@@ -22,7 +22,6 @@ CREATE TABLE forma_pagamento (
     forma_pgmt_desc VARCHAR(35)
 )
 
-DROP TABLE forma_pagamento
 
 --1.3 Loja, Fornecedores e Estoque Regional
 CREATE TABLE loja (
