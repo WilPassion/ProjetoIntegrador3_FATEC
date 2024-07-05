@@ -1,26 +1,5 @@
-                        SISTEMA INTEGRADO DE VAREJO (Grocery Store Data Warehouse)
+                        SISTEMA INTEGRADO DE VAREJO (Grocery Store/Retail Data Warehouse)
 
------------------------------------------------------------------------
-Projeto Integrador III - Curso Big Data Para Negócios / FATEC Ipiranga
-
-* Proposta pedagógica: Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recursos de Inteligência Artificial e Estatística para gerar informações em níveis estratégicos.
-
-* Etapas: 
- <img align="center" src="https://drive.google.com/uc?id=1y5Q83AC9JYBbxbemUkSSo8AFlSDauRdQ" alt="etapas-projeto"> 
-
-
-* Modelagem:
- <img align="center" src="https://drive.google.com/uc?id=1qak8kmfHbihNX59Cr8phkHh-rJmJRdXL" alt="modelagem-projeto"> 
-
-
------------------------------------------------------------------------
-                                        TIME DE DESENVOLVEDORES
-                                        
-* Guilherme Matheus: https://www.linkedin.com/in/guimatheus/
-* Everton Santos: https://www.linkedin.com/in/sittingspark117/
-* William Santos: https://www.linkedin.com/in/william-santos-194a76131/?locale=pt_BR
-* Alexandre Rodrigues: https://www.linkedin.com/in/alexandre-mori-rodrigues-b26aa5246/
-  
 -----------------------------------------------------------------------
 
                                         Cliente / Empresa:
@@ -32,12 +11,122 @@ Projeto Integrador III - Curso Big Data Para Negócios / FATEC Ipiranga
 
 -----------------------------------------------------------------------
 
-* Ferramenta escolhida para Gestão do Projeto - Trello: https://trello.com/b/QeToRuAr/projeto-integrador-iii
+                     PROJETO INTEGRADOR III - CURSO BIG DATA PARA NEGÓCIOS / FATEC IPIRANGA
 
-* Aplicação de hospedagem escolhida para o Data Warehouse - Azure Postgres Flexible Server: dw-core-supermercado.postgres.database.azure.com
+* ### **Proposta pedagógica:** Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recursos de Inteligência Artificial e Estatística para gerar informações em níveis estratégicos.
+
+* ### **Etapas:** 
+ <img align="center" src="https://drive.google.com/uc?id=1y5Q83AC9JYBbxbemUkSSo8AFlSDauRdQ" alt="etapas-projeto"> 
+
+
+* ### **Modelagem:**
+ <img align="center" src="https://drive.google.com/uc?id=1qak8kmfHbihNX59Cr8phkHh-rJmJRdXL" alt="modelagem-projeto"> 
+
+
+
+                                        TIME DE DESENVOLVEDORES
+
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/william-santos-194a76131/">
+        <img src="https://drive.google.com/uc?id=1OH_-YPMmbItsLWTfDADu6XmxUfA0K8bw" alt="William Santos" width="200" />
+      </a>
+      <br />
+      **William Santos**
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/guimatheus/">
+        <img src="https://drive.google.com/uc?id=1Xr3jqItAkrKd9xZnCpodbCq6LGB5cqrq" alt="Guilherme Matheus" width="200" />
+      </a>
+      <br />
+      **Guilherme Matheus**
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/sittingspark117/">
+        <img src="https://drive.google.com/uc?id=14lGhARo0sfJr1Dj-FeF2HeGGC5yCK2Sm" alt="Everton Santos" width="200" />
+      </a>
+      <br />
+      **Everton Santos**
+    </td>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/alexandre-mori-rodrigues-b26aa5246/">
+        <img src="https://drive.google.com/uc?id=1z9O9odaLmiVxgLl58cSZcjCOA6hFoi4b" alt="Alexandre Rodrigues" width="200" />
+      </a>
+      <br />
+      **Alexandre Rodrigues**
+    </td>
+  </tr>
+</table>
+  
+-----------------------------------------------------------------------
+                                                 RESUMO
+                                    
+> Este projeto de conclusão semestral foca no desenvolvimento e implementação do Sistema Integrado de Varejo para um mercado, com ênfase na criação de um data warehouse, na aplicação de ferramentas de Business Intelligence e Inteligência Artificial para a análise de vendas. O estudo incluiu um levantamento detalhado de informações sobre a empresa, o mercado e as tecnologias utilizadas, complementado por uma análise bibliográfica.
+>
+> O objetivo principal do estudo é demonstrar como tecnologias avançadas de análise e visualização de dados podem melhorar a tomada de decisões estratégicas por meio de inteligência de mercado e análises. O trabalho detalha o processo de escolha e implementação de ferramentas de ETL, a modelagem do Data Warehouse, a arquitetura de Business Intelligence proposta e a elaboração de análises estatísticas. O objetivo geral é aprimorar as estratégias empresariais através da análise de dados e, também, visa a integração de ferramentas de Business Intelligence e Inteligência Artificial para gerar insights profundos que aprimorem as estratégias e inteligência competitiva da loja.
+
+                                                  ABSTRACT
+                                    
+> This semester-end project focuses on the development and implementation of the "Sistema Integrado de Vendas" for a grocery store, with an emphasis on the creation of a data warehouse, the application of Artificial Intelligence and Business Intelligence tools for sales analysis. The study included a detailed survey of information about the company, the market, and the technologies used, complemented by a bibliographic analysis.
+> 
+> The main objective of the study is to demonstrate how advanced data analysis and visualization technologies can improve strategic decision-making through market intelligence and analyses. The work details the process of selecting and implementing ETL tools, modeling the data warehouse, proposing the Business Intelligence architecture, and developing statistical analyses. The general objective is to enhance business strategies through data analysis, and it also aims to integrate Artificial Intelligence and Business Intelligence tools to generate deep insights that improve the store's strategies and competitive intelligence.</p>                            
 
 -----------------------------------------------------------------------
-                                            REFERÊNCIAS
+                                             ANÁLISE DE NEGÓCIOS
+                                          
+> A Jotate Comercial de Alimentos Ltda. iniciou suas atividades no ano de 1992. A empresa atua no setor de comércio varejista de mercadorias em geral, com predominância em produtos alimentícios, padaria e confeitaria de produção própria. Sendo uma empresa de pequeno porte (minimercado) localizada em bairro residencial, o estabelecimento é conhecido por oferecer uma variedade de mercadorias alimentares.
+
+> ### **Objetivo da empresa**:
+> 
+> * Fornecer produtos alimentícios saudáveis e de qualidade para a comunidade local.
+>  
+> * Estabelecer parcerias com produtores locais
+>
+> * Expandir nossa presença no mercado local através de análise de dados e inteligência competitiva.
+
+> ### **Missão, Visão e Valores**:
+> 
+> A Jotate Comercial de Alimentos Ltda. tem como missão fornecer alimentos de alta qualidade, promovendo o bem-estar e a saúde dos clientes, buscando ser mais do que um simples ponto de venda e almejando ser um aliado na busca por uma vida mais saudável. Esse objetivo é alcançado ao oferecer produtos que atendem às necessidades nutricionais e de sabor dos consumidores.
+> 
+> A empresa almeja ser reconhecida como a principal escolha de varejo alimentar em suas localidades para aqueles que valorizam uma alimentação saudável. A empresa mantém um compromisso constante com a qualidade, inovação e serviço excepcional ao cliente.
+>
+> Assim, mantendo a qualidade e a saúde em todas as suas operações, a empresa sustenta o compromisso firme de oferecer produtos de alta qualidade e frescos, com uma seleção cuidadosa de fornecedores e atenção aos detalhes em cada etapa do processo. Acredita-se que promover escolhas alimentares saudáveis é essencial para a qualidade de vida dos clientes.
+
+> ### **Logotipo**:
+>
+> <img align="center" src="https://drive.google.com/uc?id=139cT4pnTIxlOCXqT6bQfRRc2W2bEpPvq" alt="logotipo" width="200"> 
+
+-----------------------------------------------------------------------
+                                              GESTÃO DE PROJETO
+
+> ### **Cronograma:**
+>                                           
+> Conforme destacado no Guia PMBOK (PMI, 2017), o cronograma de um projeto é derivado das definições do escopo e consiste em um plano detalhado das durações das atividades, permitindo uma visão clara de como e quando os objetivos serão alcançados.
+>
+> Desta maneira, os autores optaram pela utilização da ferramenta Trello para gerenciamento do cronograma do projeto, fazendo entregas semanais das etapas e atividades: https://trello.com/b/QeToRuAr/projeto-integrador-iii
+> 
+> <img align="center" src="https://drive.google.com/uc?id=1wGCcjA3eR0K0x-anZOhNtyxv-Xr20xVq" alt="cronograma" width="1000"> 
+
+> ### **Metologia Ágil:**
+> 
+> No projeto integrador, adotamos a metodologia ágil para gerenciar e executar nossas atividades. Dividimos nosso trabalho em sprints, que são ciclos de desenvolvimento curtos e iterativos com objetivos específicos. Utilizamos um backlog, uma lista dinâmica de funcionalidades, melhorias e correções, para organizar e priorizar as tarefas do projeto, atualizando-o continuamente com base nas necessidades. 
+-----------------------------------------------------------------------
+                                            ENTENDIMENTO E PREPARAÇÃO DOS DADOS (ETL) 
+> ### **Tratamento do Dataset:**
+> 
+> O dataset utilizado neste projeto foi tratado utilizando a linguagem de programação Python, especificamente com a biblioteca pandas.
+> * Datasets completos [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/datasets)
+> * Script completo [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/ETL.ipynb)
+>
+> A imagem fornecida apresenta o dataset após a **transformação** dos dados.
+>                            
+> <img align="center" src="https://drive.google.com/uc?id=1h-7qjneWUAqOMBrrlr32aDizgQzhVJWY" alt="etl" width="900"> 
+
+
+-----------------------------------------------------------------------
+                                                REFERÊNCIAS
 
 * IMAGENS
 
