@@ -13,13 +13,25 @@
 
                      PROJETO INTEGRADOR III - CURSO BIG DATA PARA NEGÓCIOS / FATEC IPIRANGA
 
-* ### **Proposta pedagógica:** Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recursos de Inteligência Artificial e Estatística para gerar informações em níveis estratégicos.
+### **Proposta pedagógica:**
+Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recursos de Inteligência Artificial e Estatística para gerar informações em níveis estratégicos.
 
-* ### **Etapas:** 
+### **Professores envolvidos:**
+* Coordenador do Projeto: [Izaias Porfirio](https://www.linkedin.com/in/izaiasporfiriofaria/)
+* Coordenador do Curso Big Data: [Antonio Guardado](https://www.linkedin.com/in/antonio-fernando-nunes-guardado-7bb40b135/)
+* Programação em Banco de Dados: [Rodrigo Bossini](https://www.linkedin.com/in/rodrigobossini/)
+* Estatística e Probabilidade II: [Antonio Silva](https://www.youtube.com/@danisaslu)
+* Gestão de Projetos: [Ana Serra](https://www.linkedin.com/in/ana-paula-gon%C3%A7alves-serra-a4a345/)
+* Inteligência Artificial II: [Carlos Menezes](https://www.linkedin.com/in/cedmenezes/)
+* Redes de Computadores: [Aletéia Souto](https://www.linkedin.com/in/aleteia-souto-835573157/)
+* Inteligência Competitiva: [Antonio Lobosco]()
+
+  
+### **Etapas:** 
  <img align="center" src="https://drive.google.com/uc?id=1y5Q83AC9JYBbxbemUkSSo8AFlSDauRdQ" alt="etapas-projeto"> 
 
 
-* ### **Modelagem:**
+### **Modelagem:**
  <img align="center" src="https://drive.google.com/uc?id=1qak8kmfHbihNX59Cr8phkHh-rJmJRdXL" alt="modelagem-projeto"> 
 
 
