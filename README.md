@@ -123,12 +123,26 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 > ### **Metologia Ágil:**
 > 
-> No projeto integrador, adotamos a metodologia ágil para gerenciar e executar nossas atividades. Dividimos nosso trabalho em sprints, que são ciclos de desenvolvimento curtos e iterativos com objetivos específicos. Utilizamos um backlog, uma lista dinâmica de funcionalidades, melhorias e correções, para organizar e priorizar as tarefas do projeto, atualizando-o continuamente com base nas necessidades. 
+> No projeto integrador, adotamos a metodologia ágil para gerenciar e executar nossas atividades. Dividimos nosso trabalho em sprints, que são ciclos de desenvolvimento curtos e iterativos com objetivos específicos. Utilizamos um backlog, uma lista dinâmica de funcionalidades, melhorias e correções, para organizar e priorizar as tarefas do projeto, atualizando-o continuamente com base nas necessidades.
+
+> ### **Termo de Abertura:**
+>
+> O [Termo de Abertura](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/documentos-projeto/Termo%20de%20Abertura%20do%20Projeto.pdf) serve para formalizar o início de um projeto. Esse documento contém os seguintes elementos:
+> 1) Objetivos do documento.
+> 2)	Situação atual e justificativa do projeto.
+> 3)	Estrutura Analítica do Projeto (EAP).
+> 4)	Principais requisitos.
+> 5)	Marcos.
+> 6)	Partes interessadas.
+> 7)	Restrições.
+> 8)	Premissas.
+> 9)	Riscos.
+ 
 -----------------------------------------------------------------------
                                             ENTENDIMENTO E PREPARAÇÃO DOS DADOS (ETL) 
 > ### **Tratamento do Dataset:**
 > 
-> O dataset utilizado neste projeto foi tratado utilizando a linguagem de programação Python, especificamente com a biblioteca pandas.
+> O dataset [(arquivo "Retail_Food_Stores")](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/Retail_Food_Stores.csv) utilizado neste projeto foi tratado utilizando a linguagem de programação Python, especificamente com a biblioteca pandas.
 > * Datasets completos [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/datasets)
 > * Script completo [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/ETL.ipynb)
 >
@@ -140,13 +154,13 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 -----------------------------------------------------------------------
                                                 REFERÊNCIAS
 
-* IMAGENS
+* IMAGENS:
 
 Imagem caminhão Press Cargo: Americanas. Imagem Produto. Disponível em https://www.americanas.com.br/produto/5304678030/adesivo-testeira-quebra-sol-caminhao-mercedes-benz-cromado. Acesso em 08 de junho de 2024. 21:20.
 
 "Etapas" e "Modelagem": FARIA, Izaias Porfírio. Aula Estrutura do Projeto. 2024. Documento interno. Fatec Ipiranga.
 
-Imagens e Ícones inseridos nos dashes: FlatIcon. Disponíveis em: https://www.flaticon.com/br/. Acesso durante meses de março, Abril e Junho.
+Imagens e Ícones inseridos nos dashes: FlatIcon. Disponíveis em: https://www.flaticon.com/br/. Acesso durante meses de março, abril e junho.
 
 Para ilustrar os vendedores fictícios utilizamos imagens encontradas na pesquisa do Google Images com o termo 'Harry Potter characters images'. Fonte: Google Images. Acesso em 22 de junho de 2024.
 
