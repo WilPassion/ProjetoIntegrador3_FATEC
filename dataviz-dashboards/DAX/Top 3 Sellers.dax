@@ -1,0 +1,6 @@
+Top 3 Sellers = CALCULATE(
+    SELECTEDVALUE('public vendas_fato'[vendedor]),
+    FILTER(
+        VALUES('public vendas_fato'[vendedor]),
+        [Sales Ranking] = 3)
+)

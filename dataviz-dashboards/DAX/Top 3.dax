@@ -1,0 +1,6 @@
+Top 3 = CALCULATE(
+    [Total Sales R$],
+    FILTER(
+        VALUES('public vendas_fato'[vendedor]),
+        [Sales Ranking] = 3)
+)

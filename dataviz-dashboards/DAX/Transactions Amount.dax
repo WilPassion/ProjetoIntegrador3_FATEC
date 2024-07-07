@@ -1,0 +1,1 @@
+Transactions Amount = COUNTROWS('public vendas_fato')

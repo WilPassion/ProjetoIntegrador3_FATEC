@@ -1,0 +1,4 @@
+Lost Orders = CALCULATE(
+    COUNTROWS(public_entregas),
+    public_entregas[status_entrega] = "Stolen or lost parcel"
+)    

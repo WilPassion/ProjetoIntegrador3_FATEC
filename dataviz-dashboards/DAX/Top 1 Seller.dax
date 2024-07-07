@@ -1,0 +1,6 @@
+Top 1 Seller = CALCULATE(
+    SELECTEDVALUE('public vendas_fato'[vendedor]),
+    FILTER(
+        VALUES('public vendas_fato'[vendedor]),
+        [Sales Ranking] = 1)
+)

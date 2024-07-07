@@ -1,0 +1,6 @@
+Top 3 Photo = CALCULATE(
+    SELECTEDVALUE('public vendas_fato'[imagem_vendedor]),
+    FILTER(
+        VALUES('public vendas_fato'[vendedor]),
+        [Sales Ranking] = 3)
+)

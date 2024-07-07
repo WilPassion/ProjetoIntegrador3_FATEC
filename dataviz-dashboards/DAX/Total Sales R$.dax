@@ -1,0 +1,1 @@
+Total Sales R$ = SUM('public vendas_fato'[Total Sales - Desempate Ranking]) 

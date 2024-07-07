@@ -1,0 +1,1 @@
+Tax = SUM('public vendas_fato'[imposto_5_percent])

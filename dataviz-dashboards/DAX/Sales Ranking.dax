@@ -1,0 +1,7 @@
+Sales Ranking = RANKX(
+    ALL('public vendas_fato'[vendedor]),
+    [Total Sales R$],
+    ,
+    DESC,
+    DENSE
+)

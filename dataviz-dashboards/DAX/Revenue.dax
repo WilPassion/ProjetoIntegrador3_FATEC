@@ -1,0 +1,4 @@
+Revenue = CALCULATE(
+    SUM('public vendas_fato'[total]),
+    'public_entregas'[status_entrega]="Entregue"
+)

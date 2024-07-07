@@ -1,0 +1,10 @@
+On-Time Delivery Rate = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(public_entregas),
+        public_entregas[data_entrega_estimada] <= public_entregas[data_entrega_real],
+        public_entregas[status_entrega] = "Entregue"
+    ),
+    COUNTROWS(public_entregas)
+)
+

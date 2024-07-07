@@ -1,0 +1,5 @@
+Turnover = IF(
+    MAX(
+        public_funcionarios[data_demissao]) = DATE(1111, 11, 11), 0, 
+        DIVIDE([Dismissals], [Hirings])
+)        
