@@ -1,0 +1,4 @@
+Active Employees = CALCULATE(
+    COUNTROWS(public_funcionarios),
+    public_funcionarios[data_demissao] = DATE(1111, 11, 11)
+)

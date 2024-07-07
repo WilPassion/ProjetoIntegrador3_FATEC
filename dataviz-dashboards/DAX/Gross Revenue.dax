@@ -1,0 +1,1 @@
+Gross Revenue = SUM('public vendas_fato'[total])

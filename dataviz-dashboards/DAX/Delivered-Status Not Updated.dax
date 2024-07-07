@@ -1,0 +1,4 @@
+Delivered/Status Not Updated = CALCULATE(
+    COUNTROWS(public_entregas),
+    public_entregas[status_entrega] = "Delivered but status is not updated"
+)    

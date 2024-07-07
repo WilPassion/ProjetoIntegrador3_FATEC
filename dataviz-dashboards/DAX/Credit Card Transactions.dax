@@ -1,0 +1,4 @@
+Credit Card Transactions = CALCULATE(
+    COUNTROWS('public vendas_fato'),
+    'public vendas_fato'[Forma de Pagamento]="Cartão de Crédito"
+)

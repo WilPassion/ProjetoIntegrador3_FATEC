@@ -1,0 +1,1 @@
+Hirings = COUNTROWS(public_funcionarios)

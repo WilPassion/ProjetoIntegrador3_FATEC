@@ -1,0 +1,1 @@
+Issued Invoices = COUNT('public vendas_fato'[prod_id])

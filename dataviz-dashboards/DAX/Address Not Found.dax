@@ -1,0 +1,4 @@
+Address Not Found = CALCULATE(
+    COUNTROWS(public_entregas),
+    public_entregas[status_entrega] = "Address not found"
+)
