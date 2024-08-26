@@ -150,6 +150,12 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 >                            
 > <img align="center" src="https://drive.google.com/uc?id=1h-7qjneWUAqOMBrrlr32aDizgQzhVJWY" alt="etl" width="900"> 
 
+-----------------------------------------------------------------------
+                                                MODELAGEM E CONSTRUÇÃO DO DATA WAREHOUSE
+
+
+-----------------------------------------------------------------------
+                                            APLICAÇÃO DAS TÉCNICAS E AVALIÇÃO DOS RESULTADOS
 
 -----------------------------------------------------------------------
                                                 REFERÊNCIAS
