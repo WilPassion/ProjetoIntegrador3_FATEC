@@ -57,14 +57,14 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/sittingspark117/">
-        <img src="https://drive.google.com/uc?id=14lGhARo0sfJr1Dj-FeF2HeGGC5yCK2Sm" alt="Everton Santos" width="200" />
+        <img src="https://drive.google.com/uc?id=1OMv-4a_QPhj5CCfnoe0-Rwhh-O2QsAJe" alt="Everton Santos" width="200" />
       </a>
       <br />
       **Everton Santos**
     </td>
     <td align="center">
       <a href="https://www.linkedin.com/in/alexandre-mori-rodrigues-b26aa5246/">
-        <img src="https://drive.google.com/uc?id=1z9O9odaLmiVxgLl58cSZcjCOA6hFoi4b" alt="Alexandre Rodrigues" width="200" />
+        <img src="https://drive.google.com/uc?id=1naOjAj1qxqR2HWyb0Fs648N-b2_HNPZm" alt="Alexandre Rodrigues" width="200" />
       </a>
       <br />
       **Alexandre Rodrigues**
@@ -144,7 +144,7 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 > 
 > O dataset [(arquivo "Retail_Food_Stores")](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/Retail_Food_Stores.csv) utilizado neste projeto foi tratado utilizando a linguagem de programação Python, especificamente com a biblioteca pandas.
 > * Datasets completos [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/datasets)
-> * Script completo [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/ETL.ipynb)
+> * Script completo [aqui.](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/ETL.ipynb)
 >
 > A imagem fornecida apresenta o dataset após a **transformação** dos dados.
 >                            
@@ -172,7 +172,7 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 > ### **SQL:**
 >
-> Para consultar os scripts SQL utilizados durante o processo de ingestão de dados no data warehouse clique [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/scripts_SQL)
+> Para consultar os scripts SQL utilizados durante o processo de ingestão de dados no data warehouse, [clique aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/scripts_SQL)
 
 > ### **Armazenamento do Data Warehouse**
 > 
@@ -186,12 +186,12 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 -----------------------------------------------------------------------
                                             APLICAÇÃO DAS TÉCNICAS E AVALIÇÃO DOS RESULTADOS
-> ### **DataViz**
->
-> Para a visualização e análise dos dados, utilizamos o **Power BI**, que permitiu criar dashboards interativos e visualizações detalhadas a partir do data warehouse armazenado no Azure Postgres Flexible Server. As métricas e insights gerados com o Power BI proporcionaram uma visão clara dos KPIs estratégicos para o negócio.
-> 
-> * Power BI: Para a visualização completa dos dashboards [clique aqui](https://app.powerbi.com/view?r=eyJrIjoiYjA1YjU1ZTEtNDAwZC00ODZjLWEwNjQtMzJiN2UzYzcyZTY2IiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9))
 
+🧐 Power BI: para a visualização completa dos dashboards [clique aqui](https://app.powerbi.com/view?r=eyJrIjoiYjA1YjU1ZTEtNDAwZC00ODZjLWEwNjQtMzJiN2UzYzcyZTY2IiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9)
+-----------------------------------------------------------------------
+* Para a visualização e análise dos dados utilizamos o **Power BI**, que permitiu criar dashboards interativos e visualizações detalhadas a partir do data warehouse armazenado no Azure Postgres Flexible Server. As métricas e insights gerados com o Power BI proporcionaram uma visão clara dos KPIs estratégicos para o negócio.
+  
+* O repositório inclui uma seção dedicada aos dashboards, contendo todas as informações sobre seu desenvolvimento: métricas, template do projeto no Power BI, modelagem/relacionamentos e fórmulas DAX. Para acessá-la, [clique aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/README.md)
 
 ### **Dashboards**
  
@@ -215,7 +215,43 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
  
 * DASHBOARD SALES RANKING
 <img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/sales.PNG" alt="sales" width="1000">
-<p align="center">Fonte: Imagem dos personagens de Harry Potter. ©️ Warner Bros.</p>
+<p align="center">Fonte: Imagem dos personagens de Harry Potter. ©️Warner Bros.</p>
+
+-----------------------------------------------------------------------
+🧐 Análise Preditiva - IA:  para a visualização completa do script python [clique aqui](https://app.powerbi.com/view?r=eyJrIjoiYjA1YjU1ZTEtNDAwZC00ODZjLWEwNjQtMzJiN2UzYzcyZTY2IiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9)
+-----------------------------------------------------------------------
+No projeto foi utilizado MLPRegressor, que é um modelo de aprendizado de máquina supervisionado que se adapta a padrões complexos nos dados. Ele é treinado usando as sequências históricas de vendas mensais para aprender as relações subjacentes nos dados e, em seguida, faz previsões baseadas nesse aprendizado. O modelo passa por várias camadas de nós (neurônios), onde cada camada aplica uma transformação linear seguida por uma função de ativação não linear. Isso permite ao modelo capturar relações não lineares complexas nos dados.
+
+### **Bibliotecas utilizadas**:
+
+- **pandas**: Usada para manipulação e análise de dados. No projeto, foi utilizada para transformar e processar os dados das vendas, como conversão de colunas de data e hora.
+- **matplotlib**: Utilizada para a criação de gráficos, permitindo a visualização das vendas distribuídas ao longo do tempo.
+- **psycopg2**: Biblioteca para conexão com o banco de dados PostgreSQL, permitindo a inserção de dados no banco de dados de maneira segura.
+- **sql (psycopg2)**: Usada para construir e executar consultas SQL de forma segura, prevenindo ataques de injeção de SQL.
+
+### **Gráficos dos resultados**:
+
+* Gráfico de vendas mensais sem previsão:
+
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/graficos_IA/vendas_sem_previsao.png" alt="vendas_sem_previsao.png" width="1000">
+
+No gráfico de vendas mensais sem previsão, observamos a variação das vendas ao longo do tempo. Cada ponto no gráfico representa o total de vendas realizadas em um mês específico. Esse tipo de visualização é essencial para identificar tendências, padrões sazonais e anomalias nos dados históricos. Por exemplo, podemos observar períodos de aumento e queda nas vendas, que podem estar associados a fatores sazonais, campanhas promocionais ou mudanças no comportamento do consumidor.
+
+Ao analisar este gráfico, é possível inferir a saúde geral das operações de vendas e identificar meses de alto e baixo desempenho. Além disso, a visualização das vendas mensais ajuda a destacar padrões cíclicos que podem ser utilizados para planejamento estratégico e tomada de decisões informadas.
+
+* Gráfico de previsões futuras:
+
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/graficos_IA/previsoes_vendas.png" alt="previsoes_vendas.png" width="1000">
+
+No segundo gráfico, que inclui previsões futuras, além das vendas mensais históricas, temos uma linha tracejada que representa as vendas previstas para os próximos cinco meses. Essas previsões foram geradas usando um modelo de Rede Neural Artificial, especificamente um MLPRegressor (Multi-Layer Perceptron Regressor), que é uma forma de Rede Neural de Alimentação Direta (Feedforward Neural Network).
+
+No gráfico com previsões, as vendas futuras são mostradas para os próximos cinco meses, permitindo aos analistas e gestores de negócios antecipar mudanças nas vendas e ajustar suas estratégias de acordo. A linha de previsão ajuda a identificar possíveis aumentos ou quedas nas vendas e fornece uma base quantitativa para a tomada de decisões estratégicas. Essa abordagem preditiva é crucial para o planejamento de inventário, campanhas de marketing e outras atividades empresariais que dependem de previsões de vendas precisas.
+
+* Gráfico de distribuição das vendas ao longo das horas do dia:
+
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/graficos_IA/distribuicao_vendas_hora.png" alt="distribuicao_vendas_hora.png" width="1000">  
+
+O gráfico gerado acima mostra a distribuição das vendas ao longo das horas do dia, utilizando uma linha para conectar os pontos de frequência das vendas em cada hora. Cada ponto na linha representa a quantidade de vendas que ocorreram durante uma hora específica. A linha permite visualizar facilmente os períodos do dia com maior e menor atividade de vendas. Isso ajuda a identificar tendências e padrões de comportamento dos clientes, como os horários de pico das vendas. Ao analisar este gráfico, é possível otimizar estratégias de marketing e operações comerciais, focando nos horários mais movimentados para maximizar o desempenho das vendas.
 
 -----------------------------------------------------------------------
                                                 REFERÊNCIAS
