@@ -152,13 +152,14 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 -----------------------------------------------------------------------
                                                 MODELAGEM E CONSTRUÇÃO DO DATA WAREHOUSE
+                                                
 > ### **Modelagem - Star-Scheme:**
 > 
 > <img align="center" src="modelagem-DW/modelagem_vs2.0.PNG" alt="Modelagem VS 2.0" width="900">
 
 > ### **Datasets:**
 >
-> Abaixo está listado os datasets utilizados para a população do data warehouse:
+> Abaixo está listado os datasets utilizados para a população do data warehouse após o processo de transformação dos dados:
 >
 > * [Clientes](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/clientes.csv)
 > * [Entregas](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/entregas.xlsx)
@@ -172,6 +173,17 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 > ### **SQL:**
 >
 > Para consultar os scripts SQL utilizados durante o processo de ingestão de dados no data warehouse clique [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/scripts_SQL)
+
+> ### **Armazenamento do Data Warehouse**
+> 
+> Foi utilizado o Azure Postgres Flexible Server para armazenar o Data Warehouse desenvolvido no âmbito, parte do curso de Big Data para Negócios. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
+>
+> Detalhes do banco de dados:
+> * Cloud Provider: Microsoft Azure
+> * Serviço Utilizado: Azure Postgres Flexible Server
+> * Nome do Banco de Dados: postgres
+> * Servidor: dw-core-supermercado.postgres.database.azure.com
+
 
 -----------------------------------------------------------------------
                                             APLICAÇÃO DAS TÉCNICAS E AVALIÇÃO DOS RESULTADOS
