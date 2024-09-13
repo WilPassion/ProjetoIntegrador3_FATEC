@@ -121,7 +121,7 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 > 
 > <img align="center" src="https://drive.google.com/uc?id=1wGCcjA3eR0K0x-anZOhNtyxv-Xr20xVq" alt="cronograma" width="1000"> 
 
-> ### **Metologia Ágil:**
+> ### **Metologia Ágil: - SCRUM**
 > 
 > No projeto integrador, adotamos a metodologia ágil para gerenciar e executar nossas atividades. Dividimos nosso trabalho em sprints, que são ciclos de desenvolvimento curtos e iterativos com objetivos específicos. Utilizamos um backlog, uma lista dinâmica de funcionalidades, melhorias e correções, para organizar e priorizar as tarefas do projeto, atualizando-o continuamente com base nas necessidades.
 
@@ -176,7 +176,7 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 > ### **Armazenamento do Data Warehouse**
 > 
-> Foi utilizado o <u>Azure Postgres Flexible Server</u> para armazenar o Data Warehouse desenvolvido no âmbito, parte do curso de Big Data para Negócios. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
+> Foi utilizado o <u>Azure Postgres Flexible Server</u> para armazenar o Data Warehouse desenvolvido. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
 >
 > * Cloud Provider: Microsoft Azure
 > * Serviço Utilizado: Azure Postgres Flexible Server
