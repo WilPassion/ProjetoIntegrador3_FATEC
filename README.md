@@ -152,7 +152,26 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 -----------------------------------------------------------------------
                                                 MODELAGEM E CONSTRUÇÃO DO DATA WAREHOUSE
+> ### **Modelagem - Star-Scheme:**
+> 
+> <img align="center" src="modelagem-DW/modelagem_vs2.0.PNG" alt="Modelagem VS 2.0" width="900">
 
+> ### **Datasets:**
+>
+> Abaixo está listado os datasets utilizados para a população do data warehouse:
+>
+> * [Clientes](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/clientes.csv)
+> * [Entregas](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/entregas.xlsx)
+> * [Formas de Pagamento](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/forma_pagamento.csv)
+> * [Funcionários](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/funcionarios.xlsx)
+> * [Lojas](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/loja.csv)
+> * [Produtos](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/produtos.csv)
+> * [Transportadoras](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/transportadoras.csv)
+> * [Vendas - Fato](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/datasets/vendas_fato.xls)
+
+> ### **SQL:**
+>
+> Para consultar os scripts SQL utilizados durante o processo de ingestão de dados no data warehouse clique [aqui](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/tree/main/scripts_SQL)
 
 -----------------------------------------------------------------------
                                             APLICAÇÃO DAS TÉCNICAS E AVALIÇÃO DOS RESULTADOS
