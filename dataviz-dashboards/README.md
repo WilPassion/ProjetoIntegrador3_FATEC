@@ -1,5 +1,23 @@
                                     AVALIAÇÃO DOS RESULTADOS - VISUALIZAÇÃO DE DADOS (DATAVIZ)
------------------------------------------------------------------------    
+--------------------------------
+
+### Template do Projeto
+O arquivo [relatorios_vs3.0.pbit](https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/relatorios_vs3.0.pbit) inserido no projeto é um modelo de relatório do Power BI.
+
+* PBIT significa Power BI Template.
+  
+* Esse tipo de arquivo é um modelo de relatório que inclui todos os elementos visuais, consultas e layouts do relatório, mas não contém dados.
+  
+* Ele é usado para criar novos relatórios no Power BI com a mesma estrutura e visualização, onde o usuário pode apenas importar ou conectar novos dados para preencher o relatório.
+
+Isso significa que ele foi projetado para ser reutilizado com diferentes dados ou atualizado conforme necessário, mantendo os visuais e estrutura originais.
+
+Para reutilizá-lo, basta abrir o arquivo no Power BI Desktop, adicionar os dados relevantes, e o relatório será gerado com base nas configurações definidas no modelo. Abaixo está definido a modelagem (star-scheme) final do projeto, bem como os relacionamentos entre as tabelas, para melhor entendimento da conexão dos dados:
+
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/modelagem-DW/modelagem_powerbi_etl.PNG" alt="modelagem_powerbi_etl.PNG" width="1300">
+
+--------------------------------
+
 ### Tabela de Medidas
 
 <table>
@@ -238,4 +256,73 @@
     </tr>
   </tbody>
 </table>
-         
+
+--------------------------------
+### Métricas Dashboards
+
+🛢️ Fonte dos Dados: Azure Postgres Flexible Server
+--------------------------------
+> **FINANCEIRO**
+> 
+> 🧐 Análises realizadas:
+> - Desvio da Margem-Alvo
+> - Receita
+> - Faturas Emitidas
+> - Impostos
+> - Lucro
+> - Total de Transações via PIX, Dinheiro e Cartão de Crédito
+> - Margem Líquida
+> - Lucro por Mês
+> 
+> 🍰 Filtros aplicados:
+> - Ícones das Lojas
+> - Ano
+> - Mês
+--------------------------------
+> **PEOPLE**
+> 
+> 🧐 Análises realizadas:
+> - Contratações
+> - Funcionários Ativos
+> - Demissões
+> - Turnover
+> - Funcionários Ativos por Loja
+> - Funcionários Ativos por Gênero
+> - Funcionários Ativos por Cargo
+> 
+> 🍰 Filtros aplicados:
+> - Times
+>   
+> 🛠 Mini-Dashboard Embutido ao gráftico "Funcionários Ativos por Loja":
+> - Funcionários Ativos, Folha de Pagamento e Pagamento de Horas Extras por Cargo
+--------------------------------
+> **LOGÍSTICA**
+> 
+> 🧐 Análises realizadas:
+> - Remessas (Envios)
+> - Entregas Realizadas
+> - Taxa de Entregas no Prazo
+> - Percentual de Entregas Não Realizadas
+> - Remessas por Centro de Distribuição
+> - Entregas Não Realizadas por Motivo
+> - Entregas Realizadas e Não Realizadas por Mês
+> 
+> 🍰 Filtros aplicados:
+> - Ícones das Transportadoras
+> - Ano
+> - Mês
+>   
+> 🛠 Mini-Dashboard Embutido ao gráfico "Remessas por Centro de Distribuição":
+> - Remessas por Transportadora
+--------------------------------
+> **RANKING VENDAS**
+> 
+> 🧐 Análises realizadas: 
+> - Total de Vendas
+> - Total de Comissões
+> - Ranking dos 3 Melhores Vendedores
+> - Tabela de Ranking Geral
+> 
+> 🍰 Filtros aplicados:
+> - Ano
+> - Mês

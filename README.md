@@ -176,9 +176,8 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 > ### **Armazenamento do Data Warehouse**
 > 
-> Foi utilizado o Azure Postgres Flexible Server para armazenar o Data Warehouse desenvolvido no âmbito, parte do curso de Big Data para Negócios. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
+> Foi utilizado o <u>Azure Postgres Flexible Server</u> para armazenar o Data Warehouse desenvolvido no âmbito, parte do curso de Big Data para Negócios. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
 >
-> Detalhes do banco de dados:
 > * Cloud Provider: Microsoft Azure
 > * Serviço Utilizado: Azure Postgres Flexible Server
 > * Nome do Banco de Dados: postgres
@@ -187,6 +186,36 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 -----------------------------------------------------------------------
                                             APLICAÇÃO DAS TÉCNICAS E AVALIÇÃO DOS RESULTADOS
+> ### **DataViz**
+>
+> Para a visualização e análise dos dados, utilizamos o **Power BI**, que permitiu criar dashboards interativos e visualizações detalhadas a partir do data warehouse armazenado no Azure Postgres Flexible Server. As métricas e insights gerados com o Power BI proporcionaram uma visão clara dos KPIs estratégicos para o negócio.
+> 
+> * Power BI: Para a visualização completa dos dashboards [clique aqui](https://app.powerbi.com/view?r=eyJrIjoiYjA1YjU1ZTEtNDAwZC00ODZjLWEwNjQtMzJiN2UzYzcyZTY2IiwidCI6ImNmNzJlMmJkLTdhMmItNDc4My1iZGViLTM5ZDU3YjA3Zjc2ZiIsImMiOjR9))
+
+
+### **Dashboards**
+ 
+* PAINEL CENTRAL
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/menu.PNG" alt="Menu" width="1000">
+ 
+* DASHBOARD FINANCEIRO
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/financial.PNG" alt="financeiro" width="1000">
+
+* DASHBOARD PEOPLE
+ <img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/people.PNG" alt="people" width="1000">
+
+* DASHBOARD PEOPLE (TOOLTIP)
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/tooltip-people.PNG" alt="tooltip-people" width="850">
+ 
+* DASHBOARD LOGÍSTICA
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/log.PNG" alt="log" width="1000">
+
+* MINI DASHBOARD LOGÍSTICA (TOOLTIP)
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/tooltip-log.PNG" alt="tooltip-log" width="850">
+ 
+* DASHBOARD SALES RANKING
+<img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/sales.PNG" alt="sales" width="1000">
+<p align="center">Fonte: Imagem dos personagens de Harry Potter. ©️ Warner Bros.</p>
 
 -----------------------------------------------------------------------
                                                 REFERÊNCIAS
@@ -199,7 +228,7 @@ Imagem caminhão Press Cargo: Americanas. Imagem Produto. Disponível em https:/
 
 Imagens e Ícones inseridos nos dashes: FlatIcon. Disponíveis em: https://www.flaticon.com/br/. Acesso durante meses de março, abril e junho.
 
-Para ilustrar os vendedores fictícios utilizamos imagens encontradas na pesquisa do Google Images com o termo 'Harry Potter characters images'. Fonte: Google Images. Acesso em 22 de junho de 2024.
+As imagens dos personagens de Harry Potter usadas neste projeto são de propriedade da Warner Bros. Seu uso é estritamente para fins acadêmicos e educacionais, conforme permitido pelas leis de direitos autorais.Para ilustrar os vendedores fictícios utilizamos imagens encontradas na pesquisa do Google Images com o termo 'Harry Potter characters images'. Fonte: Google Images. Acesso em 22 de junho de 2024.
 
 * DATASETS:
 
