@@ -176,9 +176,8 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 > ### **Armazenamento do Data Warehouse**
 > 
-> Foi utilizado o Azure Postgres Flexible Server para armazenar o Data Warehouse desenvolvido no âmbito, parte do curso de Big Data para Negócios. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
+> Foi utilizado o <u>Azure Postgres Flexible Server</u> para armazenar o Data Warehouse desenvolvido no âmbito, parte do curso de Big Data para Negócios. A solução oferecida pelo Azure garantiu escalabilidade e alta disponibilidade para o armazenamento e gerenciamento dos dados.
 >
-> Detalhes do banco de dados:
 > * Cloud Provider: Microsoft Azure
 > * Serviço Utilizado: Azure Postgres Flexible Server
 > * Nome do Banco de Dados: postgres
@@ -187,11 +186,23 @@ Desenvolver um Data Warehouse e aplicar técnicas de Data Mining utilizando recu
 
 -----------------------------------------------------------------------
                                             APLICAÇÃO DAS TÉCNICAS E AVALIÇÃO DOS RESULTADOS
+> ### **DataViz**
+>
+> Para a visualização e análise dos dados, utilizamos o **Power BI**, que permitiu criar dashboards interativos e visualizações detalhadas a partir do data warehouse armazenado no Azure Postgres Flexible Server. As métricas e insights gerados com o Power BI proporcionaram uma visão clara dos KPIs estratégicos para o negócio.
+
+> ### **Dashboards**
+> 
+> * PAINEL CENTRAL
+> <img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/menu.PNG" alt="Menu" width="1000">
+>
+> 
+> * DASHBOARD FINANCEIRO
+> <img align="center" src="https://github.com/WilPassion/ProjetoIntegrador3_FATEC/blob/main/dataviz-dashboards/dataviz/dashboards/financial.PNG" alt="Menu" width="1000">
 
 -----------------------------------------------------------------------
                                                 REFERÊNCIAS
 
-* IMAGENS:
+    * IMAGENS:
 
 Imagem caminhão Press Cargo: Americanas. Imagem Produto. Disponível em https://www.americanas.com.br/produto/5304678030/adesivo-testeira-quebra-sol-caminhao-mercedes-benz-cromado. Acesso em 08 de junho de 2024. 21:20.
 
